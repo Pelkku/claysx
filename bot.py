@@ -1,6 +1,6 @@
 # (©)Codexbotz
-# Recode by @UnrealZlda
-# t.me/ZeldaProjects
+# Recode by @bokep_candu
+# t.me/Bokep_candu
 
 import pyromod.listen
 import sys
@@ -70,7 +70,7 @@ class Bot(Client):
                     "\nBot Berhenti. Gabung Group https://t.me/UnrealBabies untuk Bantuan"
                 )
                 sys.exit()
-                if FORCE_SUB_CHANNEL:
+         if FORCE_SUB_CHANNEL:
             try:
                 link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL)
                 self.invitelink = link
