@@ -1,6 +1,6 @@
 # (©)Codexbotz
-# Recode by @mrismanaziz
-# t.me/SharingUserbot & t.me/Lunatic0de
+# Recode by @bokep_candu
+# t.me/bokep_candu & t.me/video_nikmat
 
 import asyncio
 import base64
@@ -17,6 +17,10 @@ OWNER_CH = int(os.environ.get("OWNER_ID", "-1001531498594"))
 
 
 async def is_subscribed(filter, client, update):
+    if not FORCE_SUB_CHANNEL:
+        return True
+    if not FORCE_SUB_GROUP:
+        return True
     if not FORCE_SUB_CHANNEL:
         return True
     if not FORCE_SUB_GROUP:
