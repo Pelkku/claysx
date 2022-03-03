@@ -54,7 +54,7 @@ class Bot(Client):
                     "\nBot Berhenti. Gabung Group https://t.me/UnrealBabies untuk Bantuan"
                 )
                 sys.exit()
-        if FORCE_SUB_GROUP:
+       if FORCE_SUB_GROUP:
             try:
                 link = await self.export_chat_invite_link(FORCE_SUB_GROUP)
                 self.invitelink2 = link
@@ -70,7 +70,7 @@ class Bot(Client):
                     "\nBot Berhenti. Gabung Group https://t.me/UnrealBabies untuk Bantuan"
                 )
                 sys.exit()
-         if FORCE_SUB_CHANNEL:
+        if FORCE_SUB_CHANNEL:
             try:
                 link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL)
                 self.invitelink = link
